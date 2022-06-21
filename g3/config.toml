@@ -1,0 +1,46 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'КБ-4 "Интеллектуальные системы информационной безопасности"'
+theme = 'gohugo-theme-ananke'
+DefaultContentLanguage = "ru"
+Paginate = 6 # this is set low for demonstrating with dummy content. Set to a higher number
+
+
+[menu]
+[[menu.main]]
+  identifier = 'about'
+  name = 'О нас'
+  pre = "<i class='fa fa-heart'></i>"
+  url = '/about'
+  weight = -110
+[[menu.main]]
+  name = 'Преподаватели'
+  url = '/teachers/'
+  weight = -100
+[[menu.main]]
+  name = 'Новости'
+  url = '/news/'
+  weight = -100
+[[menu.main]]
+  name = 'Мероприятия'
+  url = '/forms/'
+  weight = -100
+
+[params.forms]
+formID = "1FAIpQLSdQ5_NbdhLeuur9wI14VZg8dxYjXC_ME19q9SdhFiqnsUoENg"
+Full_Name = "entry.643496182"
+email = "entry.1830272051"
+Yes_No = "entry.1115090255"
+
+
+[params] 
+  text_color = ""
+  author = ""
+  favicon = "https://i.imgur.com/OLRp7Vo.png"
+  site_logo = ""
+  description = "The last theme you'll ever need. Maybe."
+  # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  
+  bgColor = '##16637d '
+  mainSections = ['news']
+  adding = ['sites']
